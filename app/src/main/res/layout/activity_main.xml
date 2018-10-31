@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="com.example.wsclient.MainActivity.MyWBSock"/>
+        <variable
+            name="myobj"
+            type="MyWBSock"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/rx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20dp"
+            android:text="@{myobj.rx}"
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            app:layout_constraintBaseline_toBaselineOf="@+id/snd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/snd" />
+
+        <Button
+            android:id="@+id/snd"
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:enabled="@{myobj.isConn}"
+            android:onClick="@{() -> myobj.onSend(myobj.tx)}"
+            android:text="@string/send"
+            app:layout_constraintEnd_toStartOf="@+id/rx"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tx"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/tx"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:inputType="textPersonName"
+            android:minWidth="100dp"
+            android:text="@={myobj.tx}"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.EditText"
+            app:layout_constraintBaseline_toBaselineOf="@+id/snd"
+            app:layout_constraintEnd_toStartOf="@+id/snd"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="Autofill,LabelFor" />
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/snd">
+
+            <TextView
+                android:id="@+id/inf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@{myobj.info}"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+        </ScrollView>
+
+        <ToggleButton
+            android:id="@+id/onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:checked="@={myobj.on_off}"
+            android:onCheckedChanged="@{(view, isCheked) -> myobj.onReconn(view, isCheked)}"
+            app:layout_constraintBottom_toTopOf="@+id/scroll"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/snd"
+            app:layout_constraintVertical_bias="0.47" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
