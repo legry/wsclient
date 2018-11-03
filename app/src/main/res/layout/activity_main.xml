@@ -49,10 +49,12 @@
             android:layout_marginStart="7dp"
             android:inputType="textPersonName"
             android:minWidth="100dp"
+            android:selectAllOnFocus="false"
             android:text="@={myobj.tx}"
             android:textAppearance="@android:style/TextAppearance.Material.Widget.EditText"
             app:layout_constraintBaseline_toBaselineOf="@+id/snd"
             app:layout_constraintEnd_toStartOf="@+id/snd"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="Autofill,LabelFor" />
 
@@ -83,15 +85,27 @@
             android:id="@+id/onoff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:checked="@={myobj.on_off}"
-            android:onCheckedChanged="@{(view, isCheked) -> myobj.onReconn(view, isCheked)}"
+            android:onCheckedChanged="@{(view, isCheked) -> myobj.onOnOff(view, isCheked)}"
             app:layout_constraintBottom_toTopOf="@+id/scroll"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/recon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/reconnect"
+            android:onClick="@{() -> myobj.onReconn()}"
+            app:layout_constraintBottom_toTopOf="@+id/onoff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/snd"
-            app:layout_constraintVertical_bias="0.47" />
+            app:layout_constraintVertical_bias="1.0" />
 
 
     </android.support.constraint.ConstraintLayout>

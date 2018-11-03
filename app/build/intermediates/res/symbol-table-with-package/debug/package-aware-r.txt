@@ -166,6 +166,7 @@ id onoff
 id packed
 id parent
 id percent
+id recon
 id right
 id right_icon
 id right_side
@@ -196,6 +197,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string ping
+string reconnect
 string send
 string status_bar_notification_info_overflow
 style AppTheme

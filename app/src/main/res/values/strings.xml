@@ -2,4 +2,5 @@
     <string name="app_name">WSClient</string>
     <string name="send">Send</string>
     <string name="ping">Ping</string>
+    <string name="reconnect">reconnect</string>
 </resources>
