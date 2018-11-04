@@ -705,7 +705,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -793,43 +793,39 @@ public final class R {
     public static final int groups=0x7f060011;
     public static final int icon=0x7f060012;
     public static final int icon_group=0x7f060013;
-    public static final int inf=0x7f060014;
-    public static final int info=0x7f060015;
-    public static final int invisible=0x7f060016;
-    public static final int italic=0x7f060017;
-    public static final int left=0x7f060018;
-    public static final int line1=0x7f060019;
-    public static final int line3=0x7f06001a;
-    public static final int none=0x7f06001b;
-    public static final int normal=0x7f06001c;
-    public static final int notification_background=0x7f06001d;
-    public static final int notification_main_column=0x7f06001e;
-    public static final int notification_main_column_container=0x7f06001f;
-    public static final int onAttachStateChangeListener=0x7f060020;
-    public static final int onDateChanged=0x7f060021;
-    public static final int onoff=0x7f060022;
-    public static final int packed=0x7f060023;
-    public static final int parent=0x7f060024;
-    public static final int percent=0x7f060025;
-    public static final int recon=0x7f060026;
-    public static final int right=0x7f060027;
-    public static final int right_icon=0x7f060028;
-    public static final int right_side=0x7f060029;
-    public static final int rx=0x7f06002a;
-    public static final int scroll=0x7f06002b;
-    public static final int snd=0x7f06002c;
-    public static final int spread=0x7f06002d;
-    public static final int spread_inside=0x7f06002e;
-    public static final int standard=0x7f06002f;
-    public static final int start=0x7f060030;
-    public static final int text=0x7f060031;
-    public static final int text2=0x7f060032;
-    public static final int textWatcher=0x7f060033;
-    public static final int time=0x7f060034;
-    public static final int title=0x7f060035;
-    public static final int top=0x7f060036;
-    public static final int tx=0x7f060037;
-    public static final int wrap=0x7f060038;
+    public static final int info=0x7f060014;
+    public static final int invisible=0x7f060015;
+    public static final int italic=0x7f060016;
+    public static final int left=0x7f060017;
+    public static final int line1=0x7f060018;
+    public static final int line3=0x7f060019;
+    public static final int none=0x7f06001a;
+    public static final int normal=0x7f06001b;
+    public static final int notification_background=0x7f06001c;
+    public static final int notification_main_column=0x7f06001d;
+    public static final int notification_main_column_container=0x7f06001e;
+    public static final int onAttachStateChangeListener=0x7f06001f;
+    public static final int onDateChanged=0x7f060020;
+    public static final int packed=0x7f060021;
+    public static final int parent=0x7f060022;
+    public static final int percent=0x7f060023;
+    public static final int right=0x7f060024;
+    public static final int right_icon=0x7f060025;
+    public static final int right_side=0x7f060026;
+    public static final int rx=0x7f060027;
+    public static final int snd=0x7f060028;
+    public static final int spread=0x7f060029;
+    public static final int spread_inside=0x7f06002a;
+    public static final int standard=0x7f06002b;
+    public static final int start=0x7f06002c;
+    public static final int text=0x7f06002d;
+    public static final int text2=0x7f06002e;
+    public static final int textWatcher=0x7f06002f;
+    public static final int time=0x7f060030;
+    public static final int title=0x7f060031;
+    public static final int top=0x7f060032;
+    public static final int tx=0x7f060033;
+    public static final int wrap=0x7f060034;
   }
   public static final class integer {
     public static final int status_bar_notification_info_maxnum=0x7f070000;
@@ -2080,7 +2076,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>

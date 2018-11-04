@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: android.arch.lifecycle:runtime-1.0.3">
     <CLASSES>
-      <root url="jar://E:/forGradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ece1d809e5ac4be5dc4957dec01abc6e/jars/classes.jar!/" />
-      <root url="file://E:/forGradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ece1d809e5ac4be5dc4957dec01abc6e/res" />
+      <root url="file://C:/andGrdl/caches/transforms-1/files-1.1/runtime-1.0.3.aar/7633c21b580d7dc7a524772c0c276329/res" />
+      <root url="jar://C:/andGrdl/caches/transforms-1/files-1.1/runtime-1.0.3.aar/7633c21b580d7dc7a524772c0c276329/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/forGradle/caches/modules-2/files-2.1/android.arch.lifecycle/runtime/1.0.3/4154878465bd9019f4c4988c668c7d69f2f687b3/runtime-1.0.3-sources.jar!/" />
+      <root url="jar://C:/andGrdl/caches/modules-2/files-2.1/android.arch.lifecycle/runtime/1.0.3/4154878465bd9019f4c4988c668c7d69f2f687b3/runtime-1.0.3-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

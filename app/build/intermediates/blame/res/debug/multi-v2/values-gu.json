@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\wsclient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
+            "outputFile": "C:\\ASProjs\\wsclient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
             "map": [
                 {
-                    "source": "E:\\forGradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\7683a3218a45f5ab5ce3221700e922c0\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\andGrdl\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f0cd4ab3c93fd9f91cd2b8df4683d87f\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

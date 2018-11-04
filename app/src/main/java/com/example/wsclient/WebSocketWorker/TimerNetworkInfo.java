@@ -1,4 +1,4 @@
-package com.example.wsclient;
+package com.example.wsclient.WebSocketWorker;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

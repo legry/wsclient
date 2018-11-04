@@ -148,7 +148,6 @@ id gone
 id groups
 id icon
 id icon_group
-id inf
 id info
 id invisible
 id italic
@@ -162,16 +161,13 @@ id notification_main_column
 id notification_main_column_container
 id onAttachStateChangeListener
 id onDateChanged
-id onoff
 id packed
 id parent
 id percent
-id recon
 id right
 id right_icon
 id right_side
 id rx
-id scroll
 id snd
 id spread
 id spread_inside

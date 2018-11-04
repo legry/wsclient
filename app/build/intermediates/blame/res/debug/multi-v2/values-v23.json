@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\wsclient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\ASProjs\\wsclient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "E:\\forGradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\447411319566ebb165334ccc279930f2\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\andGrdl\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\eb377593d2f3158ca4499ff44d161d8b\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
